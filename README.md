@@ -77,7 +77,7 @@ $ ./jmeter
 
 <b>Pronto!</b> Essa é a tela do JMeter na versão 5.4.1.
 
-![VacibaPB](./images/jmeter-inicial.png)<br /><br />
+![JMeter](./images/jmeter-inicial.png)<br /><br />
 
 ### Como os testes irão funcionar?
 
@@ -96,9 +96,21 @@ A instância na AWS que irá receber a aplicação conterá as seguintes configu
 
 No cliente, será utilizado o JMeter na versão 5.4.1 para realizar as requisições HTTP.
 
-Os parametros de desempenho serão coletados e expostos logo a baixo na sequência de passo a passo<br /><br />
+:exclamation: Os parametros de desempenho serão coletados e expostos logo a baixo na sequência de passo a passo.<br /><br />
 
 ### Testes: Passo a Passo
+
+Já com o JMeter aberto...
+
+![JMeter](./images/jmeter-inicial.png)<br /><br />
+
+<b>1 - Adicione o grupo:</b>
+
+Clique com o botão direito sobre <b>Test Plan > Add > Threads (Users) > Thread Group</b>
+
+Na opção Numbers of Threads (users): 10
+
+![JMeter](./images/passo-1.png)<br /><br />
 
 ### Fonte de pesquisa
 
