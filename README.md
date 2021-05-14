@@ -81,11 +81,11 @@ $ ./jmeter
 
 ### Objetivo do teste
 
-O principal objetivo do teste é estressar a aplicação e o servidor e verificar quantas solicitações http simultâneas o servidor é capaz de suportar, como também o melhor caso e o caso médio.<br /><br />
+O principal objetivo do teste é estressar a aplicação e o servidor e verificar quantas solicitações http simultâneas o servidor é capaz de suportar, como também o melhor caso e o caso médio de requisições.
 
-:exclamation: Iremos estressar até o ponto que a máquina seja derrubada.
+:exclamation: Iremos estressar até o ponto que o servidor venha a travar.
 
-:exclamation: É indicado utilizar a ferramenta apenas em ambientes controlados, em caso de uso indevido da ferramenta em servidores não autorizados, pode ocasionar em penalidades para o requisitante, a ferramenta deve ser utilizada de forma responsável.<br /><br />
+:exclamation: É indicado utilizar a ferramenta apenas em ambientes controlados, em caso de uso indevido da ferramenta em servidores não autorizados, pode ocasionar em infrações legais para o requisitante, a ferramenta deve ser utilizada de forma responsável.<br /><br />
 
 ### Como os testes irão funcionar?
 
@@ -117,6 +117,8 @@ Já com o JMeter aberto...
 Clique com o botão direito sobre <b>Test Plan > Add > Threads (Users) > Thread Group</b>
 
 Na opção Numbers of Threads (users): 10
+
+:exclamation: Na máquina do cliente, será provisionado 10 threads para executar as requisições simultâneas, importante ter cuidado na quantidade de threads, pois, dependendo da quantidade escolhida em relação aos recursos de processamento, pode travar o sistema operacional.
 
 ![JMeter](./images/passo-1.png)<br /><br />
 
