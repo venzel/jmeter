@@ -124,11 +124,19 @@ No campo Port Number: 80<br />
 
 <b>3 - Adicione o ouvinte (Relatórios):</b>
 
-Clique com o botão direito sobre <b>Test Plan > Add > Listener > View Result in Table</b>
+Clique com o botão direito sobre <b>Test Plan > Add > Listener > View Results in Table</b>
 
 ![JMeter](./images/passo-3.png)<br /><br />
 
 <b>4 - Rodando o teste:</b>
+
+Clique no ícone de play, circulado na imagem a baixo para rodar os testes. <br /><br
+
+:exclamation: <b>Importante!</b>
+
+Será solicitado o caminho para salvar o arquivo de configurações do teste.
+
+![JMeter](./images/passo-4.png)<br /><br />
 
 ### Fonte de pesquisa
 
