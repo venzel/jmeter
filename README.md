@@ -35,7 +35,27 @@ Um teste de performance analisa como uma determinada aplicação se comporta qua
 
 :exclamation: <b>Importante!</b>
 
-Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, <a href="https://jmeter.apache.org/usermanual/get-started.html#os" target="_blank">clique aqui</a> para ir para documentação.
+O devido tutorial foi desenvolvido com base em um ambiente linux. Atualmente estou utilizando o Ubuntu na versão 18.04.5 LTS.
+
+$ lsb_release -a
+
+```
+LSB Version:	core-9.20170808ubuntu1-noarch:...
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.5 LTS
+Release:	18.04
+Codename:	bionic
+```
+
+Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, <a href="https://jmeter.apache.org/usermanual/get-started.html#os" target="_blank">clique aqui</a> para ir para documentação. Utilizando a versão 14.
+
+$ java -version
+
+```
+java version "14.0.2" 2020-07-14
+Java(TM) SE Runtime Environment (build 14.0.2+12-46)
+Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
+```
 
 👉 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Link para o download do JMeter</a><br /><br />
 
