@@ -130,11 +130,9 @@ Clique com o botão direito sobre <b>Test Plan > Add > Listener > View Results i
 
 <b>4 - Rodando o teste:</b>
 
-Clique no ícone de play, circulado na imagem a baixo para rodar os testes. <br /><br
+Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /><br />
 
-:exclamation: <b>Importante!</b>
-
-Será solicitado o caminho para salvar o arquivo de configurações do teste.
+:exclamation: Será solicitado o caminho para salvar o arquivo de configurações do teste.
 
 ![JMeter](./images/passo-4.png)<br /><br />
 
