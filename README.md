@@ -33,11 +33,13 @@ Um teste de performance analisa como uma determinada aplicação se comporta qua
 
 ### Download e requisitos
 
-Atualmente a versão do JMeter testada é a 5.4.1.
+\*\ A versão do JMeter utilizada para os testes é a 5.4.1.
 
 O devido tutorial foi desenvolvido com base em um ambiente linux, utilizando o Ubuntu na versão 18.04.5 LTS.
 
+```bash
 $ lsb_release -a
+```
 
 ```
 LSB Version:	core-9.20170808ubuntu1-noarch:...
@@ -51,7 +53,9 @@ Codename:	bionic
 
 Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, <a href="https://jmeter.apache.org/usermanual/get-started.html#os" target="_blank">clique aqui</a> para ir para documentação. Utilizando a versão 14.
 
+```bash
 $ java -version
+```
 
 ```
 java version "14.0.2" 2020-07-14
@@ -61,10 +65,23 @@ Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 
 👉 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Link para o download do JMeter</a><br /><br />
 
+### JMeter: Primeiro contato
+
+```bash
+# Para abrir o programa:
+$ cd apache-jmeter-5.4.1/bin/
+
+# Em seguida:
+$ ./jmeter
+```
+
+<b>Pronto!</b> Essa é a tela do JMeter na versão 5.4.1.
+
 ### Fonte de pesquisa
 
 -   <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Medium</a>
 -   <a href="https://blog.betrybe.com/desenvolvimento-web/jmeter/" target="_blank">Betrybe</a>
+-   <a href="https://dev.to/hitjethva/how-to-install-apache-jmeter-on-ubuntu-20-04-2di9" target="_blank">Dev</a><br /><br />
 
 ### Autoria do tutorial
 
