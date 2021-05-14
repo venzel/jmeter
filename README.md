@@ -21,7 +21,7 @@ Desenvolvida em 2007 pela <a href="https://www.apache.org/" target="_blank">Apac
 -   Teste de concorrência;
 -   Teste de capacidade.<br /><br />
 
-o <b>JMeter</b> foi desenvolvido para testar aplicações Web. No entanto, com o tempo a tecnologia foi aprimorada e já é possível utilizá-la para testes em diferentes serviços:
+O <b>JMeter</b> foi desenvolvido para testar aplicações Web. No entanto, com o tempo a tecnologia foi aprimorada e já é possível utilizá-la para testes em diferentes serviços:
 
 -   Requisições HTTP, SOAP ou FTP;
 -   Bancos de dados;
@@ -33,7 +33,7 @@ Um teste de performance analisa como uma determinada aplicação se comporta qua
 
 ### Download e requisitos
 
-\*\ A versão do JMeter utilizada para os testes é a 5.4.1.
+\* A versão do JMeter utilizada para os testes é a 5.4.1.
 
 O devido tutorial foi desenvolvido com base em um ambiente linux, utilizando o Ubuntu na versão 18.04.5 LTS.
 
@@ -76,6 +76,14 @@ $ ./jmeter
 ```
 
 <b>Pronto!</b> Essa é a tela do JMeter na versão 5.4.1.
+
+![VacibaPB](./images/jmeter-inicial.png)<br /><br />
+
+### Como os testes irão funcionar?
+
+Será configurada uma aplicação desenvolvida NodeJs que ficará escutando na porta 80, cuja a única finalidade consiste em: ao ser solictada uma URL, a aplicação irá inserir um registro (nome, email e cpf) em um banco de dados (Postgres).
+
+A máquina que irá receber a aplicação será uma instância com 2 núcleos de processamento e 4gb de ram na <a href="https://aws.amazon.com/pt/" target="_blank">Amazon AWS</a>.<br /><br />
 
 ### Fonte de pesquisa
 
