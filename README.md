@@ -116,10 +116,8 @@ Na opção Numbers of Threads (users): 10
 
 Clique com o botão direito sobre <b>Test Group > Add > Sampler > HTTP Request</b>
 
-No campo Protocol \[HTTP] adicione HTTP
-
+No campo Protocol \[HTTP]: http
 No campo Server Name or IP: ip_do_seu_servidor_de_aplicação
-
 No campo Port Number: 80
 
 ![JMeter](./images/passo-2.png)<br /><br />
