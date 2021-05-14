@@ -6,10 +6,10 @@ A atividade faz parte da disciplina **Testes de Software** ministrada pela Profe
 
 # JMeter: Testes de performance para requisições HTTP
 
-<img width="250" src="./images/jmeter.webp" />
+<br /><img width="250" src="./images/jmeter.webp" />
 <br />
 
-## O que é o JMeter?
+### O que é o JMeter?
 
 Desenvolvida em 2007 pela <a href="https://www.apache.org/" target="_blank">Apache</a>, o JMeter é uma ferramenta utilizada para a realização de testes de performance. Escrita em Java, <b>gratuita</b>, de código aberto, com o objetivo na simulação de diversos tipos de testes:
 
@@ -27,11 +27,11 @@ o <b>JMeter</b> foi desenvolvido para testar aplicações Web. No entanto, com o
 -   Bancos de dados;
 -   servidores de e-mail, etc.<br /><br />
 
-## O que é um teste de performance?
+### O que é um teste de performance?
 
 Um teste de performance analisa como uma determinada aplicação se comporta quando ela é submetida a uma carga exaustiva de requisições, indicando se existe algum problema na aplicação ou na infra estrutura de hospedagem.<br /><br />
 
-## Download do JMeter
+### Download do JMeter
 
 :exclamation: <b>Importante!</b>
 
