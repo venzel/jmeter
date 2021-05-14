@@ -31,11 +31,11 @@ o <b>JMeter</b> foi desenvolvido para testar aplicações Web. No entanto, com o
 
 Um teste de performance analisa como uma determinada aplicação se comporta quando ela é submetida a uma carga exaustiva de requisições, indicando se existe algum problema na aplicação ou na infra estrutura de hospedagem.<br /><br />
 
-### Download do JMeter
+### Download e requisitos
 
-:exclamation: <b>Importante!</b>
+Atualmente a versão do JMeter testada é a 5.4.1.
 
-O devido tutorial foi desenvolvido com base em um ambiente linux. Atualmente estou utilizando o Ubuntu na versão 18.04.5 LTS.
+O devido tutorial foi desenvolvido com base em um ambiente linux, utilizando o Ubuntu na versão 18.04.5 LTS.
 
 $ lsb_release -a
 
@@ -46,6 +46,8 @@ Description:	Ubuntu 18.04.5 LTS
 Release:	18.04
 Codename:	bionic
 ```
+
+:exclamation: <b>Importante!</b>
 
 Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, <a href="https://jmeter.apache.org/usermanual/get-started.html#os" target="_blank">clique aqui</a> para ir para documentação. Utilizando a versão 14.
 
@@ -63,3 +65,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 
 -   <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Medium</a>
 -   <a href="https://blog.betrybe.com/desenvolvimento-web/jmeter/" target="_blank">Betrybe</a>
+
+### Autoria do tutorial
+
+Edivam Enéas de Almeida Júnior
