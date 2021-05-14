@@ -81,6 +81,8 @@ $ ./jmeter
 
 ### Como os testes irão funcionar?
 
+#### Servidor
+
 Na <a href="https://aws.amazon.com/pt/" target="_blank">Amazon AWS</a>, em uma única instância, será configurada uma aplicação em NodeJs que ficará escutando na porta 80, cuja a única finalidade consiste em: ao ser solictada uma URL, a aplicação irá inserir um registro (nome, email e cpf) em um banco de dados (Postgres).
 
 A instância na AWS que irá receber a aplicação conterá as seguintes configurações:
@@ -90,7 +92,11 @@ A instância na AWS que irá receber a aplicação conterá as seguintes configu
 -   4gb de ram;
 -   SSD 20gb.
 
-No client, será utilizado o JMeter na versão 5.4.1 para realizar as requisições.<br /><br />
+#### Cliente
+
+No cliente, será utilizado o JMeter na versão 5.4.1 para realizar as requisições HTTP.
+
+Os parametros de desempenho serão coletados e expostos logo a baixo na sequência de passo a passo<br /><br />
 
 ### Testes: Passo a Passo
 
