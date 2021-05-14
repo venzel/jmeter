@@ -1,7 +1,12 @@
-# 📖 JMeter: Testes de performance para requisições HTTP
+### Atividade de testes
 
-<br />
-<center><img width="250" src="./images/jmeter.webp" /></center>
+A atividade faz parte da disciplina **Testes de Software** ministrada pela Profesora Doutora **Mirna Maia**, que consiste em desenvolver um tutorial sobre uma ferramenta de testes: <b>JMeter</b>.
+
+<hr>
+
+# JMeter: Testes de performance para requisições HTTP
+
+<img width="250" src="./images/jmeter.webp" />
 <br />
 
 ## O que é o JMeter?
@@ -24,12 +29,17 @@ o <b>JMeter</b> foi desenvolvido para testar aplicações Web. No entanto, com o
 
 ## O que é um teste de performance?
 
-Um teste de performance analisa como uma determinada aplicação se comporta quando ela é submetida a uma carga exaustiva de requisições, indicando se existe algum problema na aplicação ou na infra estrutura de hospedagem.
+Um teste de performance analisa como uma determinada aplicação se comporta quando ela é submetida a uma carga exaustiva de requisições, indicando se existe algum problema na aplicação ou na infra estrutura de hospedagem.<br /><br />
 
 ## Download do JMeter
 
 :exclamation: <b>Importante!</b>
 
-:coffee: Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, clique aqui para ir para documentação.
+Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, <a href="https://jmeter.apache.org/usermanual/get-started.html#os" target="_blank">clique aqui</a> para ir para documentação.
 
-👉 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Link para o download do JMeter</a>
+👉 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Link para o download do JMeter</a><br /><br />
+
+### Fonte de pesquisa
+
+-   <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Medium</a>
+-   <a href="https://blog.betrybe.com/desenvolvimento-web/jmeter/" target="_blank">Betrybe</a>
