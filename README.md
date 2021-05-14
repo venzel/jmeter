@@ -116,11 +116,19 @@ Na opção Numbers of Threads (users): 10
 
 Clique com o botão direito sobre <b>Test Group > Add > Sampler > HTTP Request</b>
 
-No campo Protocol \[HTTP]: http
-No campo Server Name or IP: ip_do_seu_servidor_de_aplicação
-No campo Port Number: 80
+No campo Protocol \[HTTP]: http<br />
+No campo Server Name or IP: ip_do_seu_servidor_de_aplicação<br />
+No campo Port Number: 80<br />
 
 ![JMeter](./images/passo-2.png)<br /><br />
+
+<b>3 - Adicione o ouvinte (Relatórios):</b>
+
+Clique com o botão direito sobre <b>Test Plan > Add > Listener > View Result in Table</b>
+
+![JMeter](./images/passo-3.png)<br /><br />
+
+<b>4 - Rodando o teste:</b>
 
 ### Fonte de pesquisa
 
