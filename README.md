@@ -1,10 +1,12 @@
-# JMeter: Testes de performance para requisições HTTP
+# 📖 JMeter: Testes de performance para requisições HTTP
 
-<img style="width: 250px; margin-top: 20px; margin-bottom: 20px;" src="./images/jmeter.webp" />
+<br />
+<center><img width="250" src="./images/jmeter.webp" /></center>
+<br />
 
 ## O que é o JMeter?
 
-Desenvolvida em 2007 pela <a href="https://www.apache.org/">Apache</a>, o JMeter é uma ferramenta utilizada para a realização de testes de performance. Escrita em Java, <b>gratuita</b>, de código aberto, com o objetivo na simulação de diversos tipos de testes:
+Desenvolvida em 2007 pela <a href="https://www.apache.org/" target="_blank">Apache</a>, o JMeter é uma ferramenta utilizada para a realização de testes de performance. Escrita em Java, <b>gratuita</b>, de código aberto, com o objetivo na simulação de diversos tipos de testes:
 
 -   Teste de carga;
 -   Teste de estresse;
@@ -26,10 +28,8 @@ Um teste de performance analisa como uma determinada aplicação se comporta qua
 
 ## Download do JMeter
 
-```
-Importante!
+:exclamation: <b>Importante!</b>
 
-Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, clique aqui para ir para documentação.
-```
+:coffee: Para executar o JMeter é necessário possuir a JVM instalada em seu computador, se você ainda não possui, clique aqui para ir para documentação.
 
--   Clique aqui para fazer o download do JMeter.
+👉 <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">Link para o download do JMeter</a>
