@@ -79,6 +79,14 @@ $ ./jmeter
 
 ![JMeter](./images/jmeter-inicial.png)<br /><br />
 
+### Objetivo do teste
+
+O principal objetivo do teste é estressar a aplicação e o servidor e verificar quantas solicitações http simultâneas o servidor é capaz de suportar, como também o melhor caso e o caso médio.<br /><br />
+
+:exclamation: Iremos estressar até o ponto que a máquina seja derrubada.
+
+:exclamation: É indicado utilizar a ferramenta apenas em ambientes controlados, em caso de uso indevido da ferramenta em servidores não autorizados, pode ocasionar em penalidades para o requisitante, a ferramenta deve ser utilizada de forma responsável.<br /><br />
+
 ### Como os testes irão funcionar?
 
 #### Servidor
