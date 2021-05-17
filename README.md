@@ -166,6 +166,8 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 
 <b>Resultado:</b>
 
+<p align="center"><font size="20"> 0.2%</font></p>
+
 - A máquina demandou menos de 1% dos recursos de processamento;
 - 500 registros foram adicionados  no banco de dados postgres.
 
@@ -177,6 +179,9 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 - Cada requisição com 10 iterações.
 
 <b>Resultado:</b>
+
+<p align="center"><font size="20"> 24%</font></p>
+
 - A máquina demandou 24% dos recursos de processamento;
 - 1500 registros foram adicionados no banco de dados postgres.
 
@@ -188,6 +193,9 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 - Cada requisição com 10 iterações.
 
 <b>Resultado:</b>
+
+<p align="center"><font size="20"> 35%</font></p>
+
 - A máquina demandou 35% dos recursos de processamento;
 - 3000 registros foram adicionados no banco de dados postgres.
 
@@ -199,6 +207,9 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 - Cada requisição com 15 iterações.
 
 <b>Resultado:</b>
+
+<p align="center"><font size="20"> 75%</font></p>
+
 - A máquina demandou 75% dos recursos de processamento;
 - 6000 registros foram adicionados no banco de dados postgres.
 
