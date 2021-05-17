@@ -155,7 +155,56 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 
 ## TESTS
 
+<b>Teste 1</b>
 
+- 50 requisições de usuários simultâneos;
+- Cada requisição com 10 iterações.
+
+<b>Resultado:</b>
+
+- A máquina demandou menos de 1% dos recursos de processamento;
+- 500 registros foram adicionados  no banco de dados postgres.
+
+<hr>
+
+<b>Teste 2</b>
+
+- 150 requisições de usuários simultâneos;
+- Cada requisição com 10 iterações.
+
+<b>Resultado:</b>
+- A máquina demandou 24% dos recursos de processamento;
+- 1500 registros foram adicionados no banco de dados postgres.
+
+<hr>
+
+<b>Teste 3</b>
+
+- 300 requisições de usuários simultâneos;
+- Cada requisição com 10 iterações.
+
+<b>Resultado:</b>
+- A máquina demandou 35% dos recursos de processamento;
+- 3000 registros foram adicionados no banco de dados postgres.
+
+<hr>
+
+<b>Teste 4</b>
+
+- 400 requisições de usuários simultâneos;
+- Cada requisição com 15 iterações.
+
+<b>Resultado:</b>
+- A máquina demandou 75% dos recursos de processamento;
+- 6000 registros foram adicionados no banco de dados postgres.
+
+### Conclusões
+
+1 - Com 500 requisições o servidor não aguentaria e posivelmente travaria. Tal teste não foi realiazado devido a quantidade elevada de threads simultâneas que o computador local demanda;
+
+2 - Podemos notar a eficiência do NodeJs em receber alto volume de requisições e performar muito bem;
+
+3 - O melhor cenário foi 300 conexões simultâneas, onde os recursos ficariam processando em 35% da capacidade total.<br /><br />
 
 ### Fonte de pesquisa
 
