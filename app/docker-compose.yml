@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+    postgres:
+        container_name: ${API_NAME}-db-postgres
+        image: postgres:latest
+        restart: always
+        expose:
+            - ${POSTGRES_PORT}
+        ports:
+            - ${POSTGRES_PORT}:5432
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            PGDATA: /data/postgres
+        volumes:
+            - ./docker/postgres/configs/postgres.conf:/etc/postgresql/postgresql.conf
+            - ./docker/postgres/data:/var/lib/postgresql/data
+            - ./docker/postgres/entrypoints/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+        command: postgres -c config_file=/etc/postgresql/postgresql.conf
