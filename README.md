@@ -216,6 +216,6 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 -   <a href="https://blog.betrybe.com/desenvolvimento-web/jmeter/" target="_blank">Betrybe</a>
 -   <a href="https://dev.to/hitjethva/how-to-install-apache-jmeter-on-ubuntu-20-04-2di9" target="_blank">Dev</a><br /><br />
 
-### Autoria do tutorial
+### Autoria da pesquisa
 
 Edivam Enéas de Almeida Júnior
