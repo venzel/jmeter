@@ -157,7 +157,7 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 
 ### Vídeo dos testes
 
-👉 <a href="https://www.youtube.com/watch?v=ACTeaY4ywVA" target="_blank">Clique aqui para assistir o vídeo dos testes</a><br /><br />
+👉 <a href="https://www.youtube.com/watch?v=ACTeaY4ywVA" target="_blank"><img src="./images/passo-3.png" /></a><br /><br />
 
 <b>Teste 1</b>
 
