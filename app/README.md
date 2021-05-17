@@ -16,4 +16,6 @@
     - [x] npm-run-all
     - [x] prettier
 
+docker run -i --rm postgres cat /usr/share/postgresql/postgresql.conf.sample > postgres.conf
+
  Docker postgres - https://hashinteractive.com/blog/docker-compose-up-with-postgres-quick-tips/

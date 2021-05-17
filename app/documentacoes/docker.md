@@ -62,6 +62,12 @@ $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
+### Concede permissao ao usuario
+
+```bash
+sudo chown $USER /var/run/docker.sock
+```
+
 ## Containers
 
 ### Container : Redis

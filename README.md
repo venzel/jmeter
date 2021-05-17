@@ -1,6 +1,6 @@
 ### Atividade de testes
 
-A atividade faz parte da disciplina **Testes de Software** ministrada pela Profesora Doutora **Mirna Maia**, que consiste em desenvolver um tutorial sobre uma ferramenta de testes: <b>JMeter</b>.
+A atividade faz parte da disciplina **Testes de Software** ministrada pela Profesora **Doutora Mirna Maia**, que consiste em desenvolver um tutorial sobre uma ferramenta de testes: <b>JMeter</b>.
 
 <hr>
 
@@ -91,14 +91,21 @@ O principal objetivo do teste é estressar a aplicação e o servidor e verifica
 
 #### Servidor
 
-Na <a href="https://aws.amazon.com/pt/" target="_blank">Amazon AWS</a>, em uma única instância, será configurada uma aplicação em NodeJs que ficará escutando na porta 80, cuja a única finalidade consiste em: ao ser solictada uma URL, a aplicação irá inserir um registro (nome, email e cpf) em um banco de dados (Postgres).
+Na <a href="https://aws.amazon.com/pt/" target="_blank">Amazon AWS</a>, em uma única instância, será configurada uma aplicação em NodeJs que ficará escutando na porta 3000, cuja a única finalidade consiste em: ao ser solictada uma URL, a aplicação irá inserir um registro em um banco de dados (Postgres).<br /><br />
+
+#### Dados do registro
+
+-   id (gerado pelo sistema, UUID)
+-   name (Tiago Rizzo, dado fixo)
+-   email (tiagorizzo@gmail.com, dado fixo)
+-   created_at (gerado pelo postgres)<br /><br />
 
 A instância na AWS que irá receber a aplicação conterá as seguintes configurações:
 
 -   Ubuntu 18.04;
--   2 núcleos de processamento;
--   4gb de ram;
--   SSD 20gb.
+-   4 núcleos de processamento;
+-   8gb de ram;
+-   SSD 20gb.<br /><br />
 
 #### Cliente
 
@@ -145,6 +152,10 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 :exclamation: Será solicitado o caminho para salvar o arquivo de configurações do teste.
 
 ![JMeter](./images/passo-4.png)<br /><br />
+
+## TESTS
+
+
 
 ### Fonte de pesquisa
 

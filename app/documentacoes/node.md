@@ -31,8 +31,8 @@ $ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -
 $ nano ~/.bashrc
 
   # ADICIONA/ATUALIZA
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # Recarrega o arquivo
 $ source ~/.bashrc
