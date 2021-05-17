@@ -103,8 +103,8 @@ Na <a href="https://aws.amazon.com/pt/" target="_blank">Amazon AWS</a>, em uma �
 A instância na AWS que irá receber a aplicação conterá as seguintes configurações:
 
 -   Ubuntu 18.04;
--   4 núcleos de processamento;
--   8gb de ram;
+-   1 núcleo de processamento;
+-   1gb de ram;
 -   SSD 20gb.<br /><br />
 
 #### Cliente
