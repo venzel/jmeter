@@ -1,6 +1,11 @@
-### Atividade de testes
+# Teste de exaustão
 
-A atividade faz parte da disciplina **Testes de Software** ministrada pela Profesora **Doutora Mirna Maia**, que consiste em desenvolver um tutorial sobre uma ferramenta de testes: <b>JMeter</b>.
+Case de testes de exaustão em **Typescript** e **NodeJS** em uma instância na **AWS**.
+
+<p align="left">
+    <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="Typescript" title="Typescript" width="30" height="30" /> 
+    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS" title="NodeJS" width="30" height="30" /> 
+</p>
 
 <hr>
 
@@ -207,11 +212,9 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 
 ### Conclusões
 
-1 - Com 500 requisições o servidor não aguentaria e posivelmente travaria. Tal teste não foi realiazado devido a quantidade elevada de threads simultâneas que o computador local demanda;
+1 - Podemos notar a eficiência do NodeJs em receber alto volume de requisições e performar muito bem;
 
-2 - Podemos notar a eficiência do NodeJs em receber alto volume de requisições e performar muito bem;
-
-3 - O melhor cenário foi 300 conexões simultâneas, onde os recursos ficariam processando em 35% da capacidade total.<br /><br />
+2 - O melhor cenário foi 300 conexões simultâneas, onde os recursos ficariam processando em 35% da capacidade total.<br /><br />
 
 ### Fonte de pesquisa
 
@@ -219,6 +222,6 @@ Clique no ícone de play, circulado na imagem a baixo para rodar os testes.<br /
 -   <a href="https://blog.betrybe.com/desenvolvimento-web/jmeter/" target="_blank">Betrybe</a>
 -   <a href="https://dev.to/hitjethva/how-to-install-apache-jmeter-on-ubuntu-20-04-2di9" target="_blank">Dev</a><br /><br />
 
-### Autoria da pesquisa
+### Autor
 
 Edivam Enéas de Almeida Júnior
